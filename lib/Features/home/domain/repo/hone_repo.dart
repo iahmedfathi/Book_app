@@ -1,6 +1,7 @@
 import 'package:bookly/Features/home/domain/entites/book_entity.dart';
+import 'package:dartz/dartz.dart';
 
 abstract class HoneRepo {
-  Future<List<BookEntity>> fetchFeaturedBooks();
-  Future<List<BookEntity>> fetchNewestBooks();
+  Future<Either<String,List<BookEntity>>> fetchFeaturedBooks();
+Future<Either<String,List<BookEntity>>> fetchNewestBooks();
 }
