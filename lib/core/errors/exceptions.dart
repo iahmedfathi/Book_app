@@ -1,5 +1,3 @@
-
-
 import 'package:bookly/core/errors/error_model.dart';
 import 'package:dio/dio.dart';
 
@@ -12,11 +10,11 @@ class ServerException implements Exception {
 void handleDioExceptions(DioException e) {
   switch (e.type) {
     case DioExceptionType.connectionTimeout:
-     throw ServerException(
-    errModel: e.response != null 
-      ? ErrorModel.fromJson(e.response!.data) 
-      : ErrorModel(errorMessage: "Connection timed out, please try again.")
-  );
+      throw ServerException(
+          errModel: e.response != null
+              ? ErrorModel.fromJson(e.response!.data)
+              : ErrorModel(
+                  errorMessage: "Connection timed out, please try again."));
     case DioExceptionType.sendTimeout:
       throw ServerException(errModel: ErrorModel.fromJson(e.response!.data));
     case DioExceptionType.receiveTimeout:

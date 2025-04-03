@@ -1,0 +1,94 @@
+{
+    "kind": "books#volume",
+    "id": "1sIzdipoXuQC",
+    "etag": "yNMBJAw7UnQ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/1sIzdipoXuQC",
+    "volumeInfo": {
+        "title": "XNA 3.0 Game Programming Recipes",
+        "subtitle": "A Problem-Solution Approach",
+        "authors": [
+            "Riemer Grootjans"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2009-05-26",
+        "description": "Join the game development revolution today! XNA 3.0 greatly simplifies the development of your own games, lowering the barrier for programmers to get into game development. In XNA, you can start coding your games from the very start, a true revelation compared to other game programming environments. XNA doesn't sacrifice power for this ease of use—it is built entirely on DirectX technology. Completely updated for XNA 3.0, expert Riemer Grootjans brings together a selection of the hottest recipes in XNA programming for the Xbox 360, PC, and Zune. Advanced XNA programmers, experienced coders new to game development, and even complete beginners will find XNA 3.0 Game Programming Recipes an invaluable companion whether building games for fun or as commercial products.",
+        "industryIdentifiers": [
+            {
+                "type": "ISBN_13",
+                "identifier": "9781430218562"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "1430218568"
+            }
+        ],
+        "readingModes": {
+            "text": false,
+            "image": true
+        },
+        "pageCount": 663,
+        "printType": "BOOK",
+        "categories": [
+            "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.5.3.0.preview.1",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=1sIzdipoXuQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=1sIzdipoXuQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.eg/books?id=1sIzdipoXuQC&printsec=frontcover&dq=subject:Programming&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=1sIzdipoXuQC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1sIzdipoXuQC"
+    },
+    "saleInfo": {
+        "country": "EG",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 2055.31,
+            "currencyCode": "EGP"
+        },
+        "retailPrice": {
+            "amount": 2055.31,
+            "currencyCode": "EGP"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=1sIzdipoXuQC&rdid=book-1sIzdipoXuQC&rdot=1&source=gbs_api",
+        "offers": [
+            {
+                "finskyOfferType": 1,
+                "listPrice": {
+                    "amountInMicros": 2055310000,
+                    "currencyCode": "EGP"
+                },
+                "retailPrice": {
+                    "amountInMicros": 2055310000,
+                    "currencyCode": "EGP"
+                }
+            }
+        ]
+    },
+    "accessInfo": {
+        "country": "EG",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": false
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.eg/books/download/XNA_3_0_Game_Programming_Recipes-sample-pdf.acsm?id=1sIzdipoXuQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1sIzdipoXuQC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    }
+}

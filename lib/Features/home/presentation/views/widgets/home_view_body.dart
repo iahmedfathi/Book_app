@@ -1,5 +1,3 @@
-
-
 import 'package:bookly/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +16,7 @@ class HomeViewBody extends StatelessWidget {
         SliverToBoxAdapter(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children:  [
+            children: [
               Padding(
                   padding: EdgeInsets.symmetric(
                     horizontal: 30,
@@ -41,7 +39,7 @@ class HomeViewBody extends StatelessWidget {
             ],
           ),
         ),
-         SliverFillRemaining(
+        SliverFillRemaining(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 30),
             child: BestSellerListView(),
