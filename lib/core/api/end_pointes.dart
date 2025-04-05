@@ -1,4 +1,6 @@
 class EndPoint {
+  static String newestBookEndPoint = "volumes?Filtering=free-ebooks&q=subject:Programming&sorting=newest";
+
   static String baseUrl = "https://www.googleapis.com/books/v1/";
 
   static String featuredBookEndPoint =
